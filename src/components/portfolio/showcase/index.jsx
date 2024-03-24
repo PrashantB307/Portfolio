@@ -17,7 +17,7 @@ const Showcase = ({ data, transition }) => {
                     key={project.id}
                 >
                     
-                    <a href={project.link}>
+                    <a href={project.link} target="new">
                         <div className="meta-content">    
                             <h3>{project.name}</h3>
                             <link rel="stylesheet" href={project.link} />
